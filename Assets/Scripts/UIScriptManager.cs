@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIScriptManager : MonoBehaviour
 {
-    public Text lat, lon;
+    //public Text lat, lon;
     
     void Start()
     {
@@ -14,7 +14,7 @@ public class UIScriptManager : MonoBehaviour
 
     void Update()
     {
-        lat.text = "LAT" + GPSLocation.latitude.ToString();
-        lon.text = "LON" + GPSLocation.longitude.ToString();
+        //lat.text = "LAT" + GPSLocation.latitude.ToString();
+        //lon.text = "LON" + GPSLocation.longitude.ToString();
     }
 }
